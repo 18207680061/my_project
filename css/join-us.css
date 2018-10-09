@@ -1,0 +1,220 @@
+body{
+    min-width: 1200px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: rgb(34, 172, 56);
+}
+header .title{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+header .title .logo{
+    float: left;
+}
+header .title .header-nav:after{
+    content: '';
+    display: none;
+    clear: both;
+}
+header .title .header-nav li{
+    float: left;
+}
+header .title .header-nav li a{
+    float: left;
+    margin-left: 10px;
+    line-height: 60px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+
+}
+header .title .header-nav li a:hover{
+    background: rgb(23, 149, 0);
+}
+header .title .header-nav-right{
+    float: right;
+}
+header .title .header-nav-right:after{
+    content: '';
+    display: none;
+    clear: both;
+}
+header .title .header-nav-right li{
+    float: left;
+}
+header .title .header-nav-right li a{
+    float: right;
+    line-height: 60px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-size: 14px;
+    position: relative;
+}
+header .title .header-nav-right li a span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+/*.banner{*/
+/*height: 416px;width: 100%;*/
+/*background-color: skyblue;*/
+/*text-align: center;*/
+/*position: relative;*/
+/*overflow: hidden;*/
+/*}*/
+/*.banner .bannerout .ulimg{*/
+/*zoom: 1;*/
+
+/*}*/
+/*.banner .bannerout .ulimg:after{*/
+/*content: "";*/
+/*display: block;*/
+/*clear: both;*/
+/*}*/
+/*.banner .bannerout .ulimg li{*/
+/*width: 100%;*/
+/*float: left;*/
+/*text-align: center;*/
+/*}*/
+/*.banner .bannerout .ulimg li .bannerimg{margin:0 -100%;height: 416px;}*/
+/*.banner .bannerout{*/
+/*position: relative;*/
+/*height: 416px;*/
+/*}*/
+.content .bannerout-out{
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+}
+.content .banner{
+    position: relative;
+    zoom: 1;
+}
+.content .banner:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.content .banner li{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.content .banner li img{
+    height: 100%;
+    margin-left: -100%;
+    margin-right: -100%;
+
+}
+.content .bannerout{
+    position: relative;
+    height: 540px;
+}
+.content .bannerout .olcircle {
+    min-width: 50px;
+    height: 16px;
+    position: absolute;
+    top: 500px;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -25px;
+    z-index: 10;
+}
+.content .banner .olcircle li{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 4px;
+}
+.content .banner .olcircle li:nth-child(1){
+    background: url("../join-us-img/focus_checked.png");
+}
+.content .banner .olcircle li:nth-child(2){
+    background: url("../join-us-img/focus.png");
+}
+.three-des{
+    width: 1024px;
+    height: 245px;
+    margin: 0 auto;
+}
+.fir-des,.sec-des,.third-des{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.three-des p{
+    height: 64px;
+    width: 100%;
+
+}
+.three-des div p span{
+    width: 64px;
+    height: 100%;
+    background-color:green ;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+.three-des div p span img{
+    position: absolute;
+    left: 18%;
+    top: 21%;
+}
+.three-des ul{
+    margin-top: 20px;
+}
+.three-des ul li{
+
+    margin-bottom: 8px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 25px;
+
+}
+.three-des ul li span{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border:1px solid #22AC38;
+    display: inline-block;
+    margin-right: 10px;
+}
+.three-des ul li a{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #777;
+    font-size: 14px;
+    max-width: 72%;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(42, 44, 55);
+    text-align: center;
+}
+footer p:nth-child(1){
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+footer p:nth-child(2){
+    font-size: 12px;
+    color: #D3D3D3;
+}
+aside{
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    z-index: 100;
+}

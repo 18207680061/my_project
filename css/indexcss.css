@@ -1,0 +1,1321 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/*版心*/
+html,body{min-width: 1200px;
+    width: 100%;
+    height: 100%;
+
+}
+/*右边固定条*/
+.rightfixed{
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    top: 0;right: 0;
+    background-color: #2a2c37;
+    z-index: 2018;
+}
+.rightfixed .iconout{
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -150px;
+
+}
+
+.rightfixed .iconout .fixicon{
+    width: 45px;height: 45px;position: absolute;cursor: pointer;
+}
+/*第一個圖標*/
+.rightfixed .iconout .fixicon1{
+    background: url(../guazi/spritefixed.png) no-repeat -58px 13px;
+
+    z-index: 999;
+}
+.rightfixed .iconout .fixicon1:hover{
+    background: url(../guazi/spritefixed.png) no-repeat 10.5px 13px;
+    background-color: rgb(63,66,81);
+}
+.rightfixed .iconout .fixicon1 .firsticonshow{
+    width: 240px;height: 205px;background-color: white;position:absolute ; right: 150%;top: -200%;
+    padding-left: 41px;padding-top: 15px;
+    box-sizing: border-box;
+    display: none;
+}
+.rightfixed .iconout .fixicon1 .firsticonshow p{
+    color: #0000FF;font-size: 14px;text-indent: 6px;
+
+}
+/*第二個圖標*/
+.rightfixed .iconout .fixicon2{
+    top: 60px;
+    background: url(../guazi/spritefixed.png) no-repeat -58px -39px;
+
+    z-index: 1000;
+}
+.rightfixed .iconout .fixicon2:hover{
+    background: url(../guazi/spritefixed.png) no-repeat 10.5px -39px;
+    background-color: rgb(63,66,81);
+
+}
+.rightfixed .iconout .fixicon2 .firsticonshow{
+    width: 240px;height: 205px;background-color: white;position:absolute ; right: 150%;top: -200%;
+    padding-left: 41px;padding-top: 15px;
+    box-sizing: border-box;
+    display: none;
+}
+.rightfixed .iconout .fixicon2 .firsticonshow p{
+    color: #0000FF;font-size: 14px;text-indent: 6px;
+
+}
+/*第三個圖標*/
+.rightfixed .iconout .fixicon3{
+    top: 120px;
+    background: url(../guazi/spritefixed.png) no-repeat -58px -126px;
+
+    z-index: 1001;
+}
+.rightfixed .iconout .fixicon3:hover{
+    background: url(../guazi/spritefixed.png) no-repeat 10.5px -126px;
+    background-color: rgb(63,66,81);
+}
+
+.rightfixed .iconout .fixicon3 .thirdiconshow{
+    width: 135px;height: 54px;border-radius:8px ;background-color: white;text-align: center;line-height: 54px;position: absolute;right: 150%;display: none;color: darkslategrey;border: 1px solid #CCCCCC;
+}
+/*第四個圖標*/
+.rightfixed .iconout .fixicon4{
+    top: 180px;
+    background: url(../guazi/spritefixed.png) no-repeat -58px -80px;
+
+    z-index: 1002;
+}
+.rightfixed .iconout .fixicon4:hover{
+    background: url(../guazi/spritefixed.png) no-repeat 10.5px -80px;
+    background-color: rgb(63,66,81);
+
+}
+.rightfixed .iconout .fixicon4 .fourthiconshow{
+    width: 265px;height: 50px;border-radius:8px ;background-color: white;text-align: center;line-height: 50px;position: absolute;right: 150%;z-index: 1003;font-size: 14px;color: darkslategrey;display: none;border: 1px solid #CCCCCC;
+}
+/*第五個圖標*/
+.rightfixed .iconout .fixicon5{
+    top: 240px;
+    background: url(../guazi/spritefixed.png) no-repeat -58px -176px;
+
+    z-index: 1004;
+}
+.rightfixed .iconout .fixicon5:hover{
+    background: url(../guazi/spritefixed.png) no-repeat 10.5px -176px;
+    background-color: rgb(63,66,81);
+
+}
+
+/*轮播开始*/
+.banner{
+    height: 416px;width: 100%;
+    background-color: skyblue;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .bannerout .ulimg{
+    zoom: 1;
+
+}
+.banner .bannerout .ulimg:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.banner .bannerout .ulimg li{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.banner .bannerout .ulimg li .bannerimg{margin:0 -100%;height: 416px;}
+.banner .bannerout{
+    position: relative;
+    height: 416px;
+}
+.banner .bannerout .olcircle{
+    overflow: hidden;
+    width: 80px;
+    height: 12px;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -40px;
+    text-align: center;
+}
+.banner .bannerout .olcircle li{
+    float: left;
+    width: 9px;
+    height: 10px;
+    border-radius: 50%;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -406px -232px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.banner .bannerout .olcircle li:hover{
+    background: url("../guazi/sprite_yasuo.png") no-repeat -406px -212px;
+}
+.banner .bannerout .olcircle li.current{
+    background: url("../guazi/sprite_yasuo.png") no-repeat -406px -212px;
+}
+.banner .bannerout span{
+    width: 41px;
+    height: 41px;
+    position:absolute ;
+    top: 95%;
+    margin-top: -208px;
+    cursor: pointer;
+}
+.banner .bannerout .left{
+    left: 80px;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -402px 9px;
+}
+.banner .bannerout .left:hover{
+    left: 80px;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -402px -45px;
+}
+.banner .bannerout .right{
+    right: 80px;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -402px -97px;
+}
+.banner .bannerout .right:hover{
+    right: 80px;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -402px -141px;
+}
+    /*轮播结束*/
+/*头部开始*/
+.header{
+    width: 1200px;
+    height: 64px;
+    position: absolute;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 90px;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+
+}
+.header .logo{
+    width: 20%;height: 64px;float: left;
+}
+/*城市群*/
+.citiesgroup{
+    background-color: #fff;
+    position: absolute;
+    width: 785px;
+    height: 390px;
+    z-index: 2020;
+    left: 143px;
+    top: 55px;
+    overflow: auto;
+    display: none;
+}
+.citiesgroup .aroundcity{
+    padding: 5px 17px;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+}
+.citiesgroup .aroundcity li{
+    line-height: 46px;
+}
+.citiesgroup .aroundcity li:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.citiesgroup .aroundcity li span{
+    float: left;
+    font-size: 14px;
+    white-space: nowrap;
+    width: 50px;
+    text-align: left;
+    line-height: 46px;
+}
+.citiesgroup .aroundcity li a{
+    float: left;
+    color: #495056;
+    font-size: 14px;
+    margin-right: 25px;
+    white-space: nowrap;
+    margin-right: 25px;
+    line-height: 46px;
+    
+}
+.citiesgroup .countrycity{
+    padding: 5px 17px;
+    overflow: hidden;
+}
+.citiesgroup .countrycity li{
+    border-bottom: 1px dashed #e6e6e6;
+}
+.citiesgroup .countrycity li:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.citiesgroup .countrycity li span{
+    float: left;
+    color: #a5abb2;
+    font-size: 14px;
+    width: 50px;
+    text-align: left;
+    line-height: 46px;
+}
+.citiesgroup .countrycity li a{
+    float: left;
+    margin-right: 25px;
+    color: #495056;
+    font-size: 14px;
+    line-height: 46px;
+}
+/*城市群结束*/
+.header .logo h1 a{display: inline-block;
+    float: left;
+    width: 64px;
+    height: 64px;
+background: url("../guazi/sprite_yasuo.png") no-repeat -181px -33px}
+
+header .logo span{
+    float: right;
+
+}
+.header .mainnav{width: 80%;height: 100%;float: left;position: relative}
+.header .mainnav ul{float: left;
+    width: 700px;
+    height: 58px;
+    /*padding: 0 50px 0 50px;*/
+    /*box-sizing: border-box;*/
+}
+.header .mainnav ul li{float: left;margin:0 27px;}
+.header .mainnav ul li a{display: inline-block;height: 75px;text-decoration: none;color: black;font-size: 14px;overflow: hidden;}
+.header .mainnav ul li a:hover{
+    color: #22ac38;
+}
+.color22ac38{
+    color:#22ac38 !important;
+}
+.borderbottom{
+    border-bottom: 2px solid #22ac38;
+}
+.hovercolor{}
+.hovercolor:hover{color: #22ac38;}
+.header .mainnav ul li a:last-child{position: relative;}
+
+.header .mainnav .logon{
+    height: 32px;
+    cursor: pointer;
+    margin-right: 88px;
+    margin-top: 36px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    background: url(../guazi/sprite_yasuo.png);
+    background-position: 13px -205px;
+    width: 60px;position: absolute;top: -5px;right: 170px;}
+.header .mainnav .logon:hover{
+    background-position: 13px -233px;
+}
+.header .mainnav .logon:hover a{
+    color:#22ac38;
+}
+.header .mainnav .logon a{margin-left: 30px;}
+
+.header .mainnav span{color: #22ac38;font-size: 24px;font-weight: bolder;float: right;}
+.header .mainnav span em{
+   position: relative;
+    right: 35px;
+    top: -3px;
+    font-size: 18px;}
+.white{
+    color: white;
+}
+.header .mainnav .navlist li .white{
+    color: white;
+}
+.header .num400.white{
+    color: white;
+}
+.logowhite{
+    background-position: 13px -262px !important;
+}
+/*头部结束*/
+.content{position: relative;background-color: rgb(245,245,247);}
+.content .wantcar{
+    width: 1200px;height: 275px;margin: 0 auto;border: 1px solid #ccc;border-radius:10px ;box-shadow: 0 0 10px gray;padding: 20px 25px; box-sizing: border-box;color: #495056;box-sizing: border-box;position: absolute;top: -67px;left:50%;	margin-left: -600px;background-color: white;
+}
+.content .wantcar .buycar{width: 706px;height: 234px;float: left;position:relative ;padding: 10px;box-sizing: border-box;}
+.content .wantcar .buycar .search{width: 19px;height: 18px;background: url(../guazi/sprite_yasuo.png)no-repeat 0px 0px;position: absolute;top: 27px;right: 35px;cursor: pointer;}
+.content .wantcar .buycar .search:hover{
+    background: url(../guazi/sprite_yasuo.png)no-repeat -21px 0px;
+}
+.content .wantcar .buycar span{font-size: 20px;margin-left: 20px;}
+.cursorpoiter{
+    cursor: pointer;
+}
+.content .wantcar .buycar input{border: none;box-sizing: border-box; border-radius: 22px ; width: 327px;height: 45px;font-size: 15px;float: right; padding-left: 2em;outline: none;}
+.content .wantcar .buycar input:hover{
+    border: 1px solid #ccc;
+}
+.content .wantcar .buycar .hotrecommend{
+    position: absolute;
+    width: 327px;
+    right: 10px;
+    top: 57px;
+    background-color: skyblue;
+    padding: 5px 0;
+    z-index: 2018;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #22ac38;
+    box-shadow: 2px 2px 3px #eee;
+    color: #000;
+    overflow: auto;
+    _overflow-x: hidden;
+    text-align: left;
+    display: none;
+}
+.content .wantcar .buycar .hotrecommend ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.content .wantcar .buycar .hotrecommend ul li{
+    height: 28px;
+    line-height: 28px;
+}
+.content .wantcar .buycar .carname{margin-top: 40px;}
+.content .wantcar .buycar div ul{line-height: 50px;width: 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 32px;}
+.content .wantcar .buycar div ul li{float: left;line-height: 22px;cursor: pointer;overflow: hidden;text-align: center;width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;}
+.content .wantcar .buycar div ul li:hover{
+    color: #22ac38;
+}
+.content .wantcar .buycar .carname ul li img{
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin-top: -2px;
+    margin-right: 5px;}
+.content .wantcar .salecar{width: 425px;height: 234px;float: right;padding-top: 10px;box-sizing: border-box;margin-right: -40px;}
+.content .wantcar .salecar .iwantsale{float: left;font-size: 20px;}
+.content .wantcar .salecar p {float: right;    color: #a8abae;margin-right: 40px;}
+.content .wantcar .salecar p span{font-size: 20px;color: #3cb46d}
+.content .wantcar .salecar input{width: 370px;height: 50px;margin-top: 32px;border-radius:10px ;text-indent: 25px;font-size: 15px;outline: none;
+border: none;box-sizing: border-box}
+.content .wantcar .salecar input:hover{
+border: 1px solid #ccc;
+
+}
+.content .wantcar .salecar button{
+    float: left;
+    width: 179px;
+    height: 64px;
+    margin-right: 11px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #3cb46d;
+    margin-top: 15px;
+}
+.content .wantcar .salecar .btnfree{background: #8ec500;}
+.content .wantcar .salecar .btnfree:hover{background: #88ba00}
+.content .wantcar .salecar .btnsale:hover{background: #349b5e}
+/*保卖车开始*/
+.content .ensuresalecar{
+    width: 1200px;height: 430px;background-color: rgb(245,245,247);position: absolute;top: 250px;left: 50%;margin-left: -600px;
+}
+.content .ensuresalecar div{
+    width: 100%;height:54px;
+}
+.content .ensuresalecar div h3{float: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: #495056;}
+.content .ensuresalecar div span{float: left;
+    margin-top: 9px;
+    margin-left: 24px;
+    font-size: 12px;
+    color: #a8abae;}
+.content .ensuresalecar .leftimg{width: 227px;height: 346px;float: left;}
+.content .ensuresalecar .chooseyourlove{width: 227px;height: 346px;margin-left: 15px;float: left;background-color: white;}
+.hovershadow{}
+.hovershadow:hover{
+    box-shadow: 0 5.5px 13px 0 rgba(0,0,0,.1);
+}
+
+.content .ensuresalecar .chooseyourlove img{margin-top: 85px;width: 227px;height: 92px;}
+.content .ensuresalecar .chooseyourlove .choosetxt{
+    margin-top: 150px;
+}
+.content .ensuresalecar .chooseyourlove p{ margin-bottom: 10px;text-align: center;
+    color: #495056;margin-bottom: 15px;}
+.content .ensuresalecar .chooseyourlove  span{
+    text-align: center;
+    color: #f76367;
+}
+.content .ensuresalecar .firstchoose{
+    width: 470px;height: 346px; background-color: rgb(245,245,247);
+    margin-left: 16px;float: left;
+}
+.content .ensuresalecar .firstchoose .firchs{
+    width:100%;height: 165px;margin-bottom: 16px;background-color: white;
+}
+.content .ensuresalecar .firstchoose .firchs img{margin-top: 38px;}
+.content .ensuresalecar .firstchoose .firchs .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .ensuresalecar .firstchoose .firchs .firchsdes p{line-height: 24px;color: #495056}
+content .ensuresalecar .firstchoose .firchs .firchsdes .ershouche5-7 {color: #f76367;}
+.content .ensuresalecar .firstchoose .carbeauitful{
+    width:100%;height: 165px;background-color: white;
+}
+.content .ensuresalecar .firstchoose .carbeauitful img{margin-top: 38px;}
+.content .ensuresalecar .firstchoose .carbeauitful .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .ensuresalecar .firstchoose .carbeauitful .firchsdes p{line-height: 24px;color: #495056}
+content .ensuresalecar .firstchoose .carbeauitful .firchsdes .ershouche5-7 {color: #f76367;}
+.content .ensuresalecar .rightimg{width: 227px;height: 346px;float: left;background-color: white;margin-left: 16px;}
+/*保卖车结束*/
+/*瓜子金融开始*/
+.content .guazifinancial{
+    width: 1200px;height: 430px;background-color: rgb(245,245,247);position: absolute;top: 680px;left: 50%;margin-left: -600px;
+}
+.content .guazifinancial div{
+    width: 100%;height:54px;
+}
+.content .guazifinancial div h3{float: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: #495056;}
+.content .guazifinancial div span{float: left;
+    margin-top: 9px;
+    margin-left: 24px;
+    font-size: 12px;
+    color: #a8abae;}
+.content .guazifinancial .leftimg{width: 227px;height: 346px;float: left;}
+.content .guazifinancial .chooseyourlove{width: 227px;height: 346px;margin-left: 15px;float: left;background-color: white;}
+.content .guazifinancial .chooseyourlove img{margin-top: 85px;width: 227px;height: 92px;}
+.content .guazifinancial .chooseyourlove .choosetxt{
+    margin-top: 150px;
+}
+.content .guazifinancial .chooseyourlove p{ margin-bottom: 10px;text-align: center;
+    color: #495056;margin-bottom: 15px;}
+.content .guazifinancial .chooseyourlove  span{
+    text-align: center;
+    color: #f76367;
+}
+.content .guazifinancial .firstchoose{
+    width: 470px;height: 346px; background-color: rgb(245,245,247);
+    margin-left: 16px;float: left;
+}
+.content .guazifinancial .firstchoose .firchs{
+    width:100%;height: 165px;margin-bottom: 16px;background-color: white;
+}
+.content .guazifinancial .firstchoose .firchs img{margin-top: 38px;}
+.content .guazifinancial .firstchoose .firchs .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .guazifinancial .firstchoose .firchs .firchsdes p{line-height: 24px;color: #495056}
+content .guazifinancial .firstchoose .firchs .firchsdes .ershouche5-7 {color: #f76367;}
+.content .guazifinancial .firstchoose .carbeauitful{
+    width:100%;height: 165px;background-color: white;
+}
+.content .guazifinancial .firstchoose .carbeauitful img{margin-top: 38px;}
+.content .guazifinancial .firstchoose .carbeauitful .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .guazifinancial .firstchoose .carbeauitful .firchsdes p{line-height: 24px;color: #495056}
+content .guazifinancial .firstchoose .carbeauitful .firchsdes .ershouche5-7 {color: #f76367;}
+.content .guazifinancial .rightimg{width: 227px;height: 346px;float: left;background-color: white;margin-left: 16px;}
+/*瓜子金融结束*/
+/*毛豆新车开始*/
+.content .maodou{
+    width: 1200px;height: 430px;background-color: rgb(245,245,247);position: absolute;top: 1110px;left: 50%;margin-left: -600px;
+}
+.content .maodou div{
+    width: 100%;height:54px;
+}
+.content .maodou div h3{float: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: #495056;}
+.content .maodou div span{float: left;
+    margin-top: 9px;
+    margin-left: 24px;
+    font-size: 12px;
+    color: #a8abae;}
+.content .maodou .leftimg{width: 227px;height: 346px;float: left;}
+.content .maodou .chooseyourlove{width: 227px;height: 346px;margin-left: 15px;float: left;background-color: white;}
+.content .maodou .chooseyourlove img{margin-top: 85px;width: 227px;height: 92px;}
+.content .maodou .chooseyourlove .choosetxt{
+    margin-top: 150px;
+}
+.content .maodou .chooseyourlove p{ margin-bottom: 10px;text-align: center;
+    color: #495056;margin-bottom: 15px;}
+.content .maodou .chooseyourlove  span{
+    text-align: center;
+    color: #f76367;
+}
+.content .maodou .firstchoose{
+    width: 470px;height: 346px; background-color: rgb(245,245,247);
+    margin-left: 16px;float: left;
+}
+.content .maodou .firstchoose .firchs{
+    width:100%;height: 165px;margin-bottom: 16px;background-color: white;
+}
+.content .maodou .firstchoose .firchs img{margin-top: 38px;}
+.content .maodou .firstchoose .firchs .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .maodou .firstchoose .firchs .firchsdes p{line-height: 24px;color: #495056}
+content .maodou .firstchoose .firchs .firchsdes .ershouche5-7 {color: #f76367;}
+.content .maodou .firstchoose .carbeauitful{
+    width:100%;height: 165px;background-color: white;
+}
+.content .maodou .firstchoose .carbeauitful img{margin-top: 38px;}
+.content .maodou .firstchoose .carbeauitful .firchsdes{width: 121.7px;height: 112px;float: right;padding-top: 60px; box-sizing: border-box;margin-right: 58px;}
+.content .maodou .firstchoose .carbeauitful .firchsdes p{line-height: 24px;color: #495056}
+.content .maodou .firstchoose .carbeauitful .firchsdes .ershouche5-7 {color: #f76367;}
+.content .maodou .rightimg{width: 227px;height: 346px;float: left;background-color: white;margin-left: 16px;}
+/*毛豆新车结束*/
+/*<!--买卖车流程mask开始-->*/
+.content .slide_mask{width: 1349px;height: 400px;position: absolute;top: 1540px;text-align: center;overflow:hidden;
+
+}
+.content .slide_mask .maskbg{
+    position: absolute;top: 0;right: 9px;
+}
+.content .slide_mask .buystepimg{
+    margin-right: -100%;
+    margin-left: -100%;
+}
+.content .slide_mask .ulsalestep img{
+    margin-right: -100%;
+    margin-left: -100%;
+}
+.content .slide_mask .buysallpro{
+    position: absolute;top: 65px;left: 100px;width: 200px;display: flex;justify-content: space-around;}
+.content .slide_mask .buysallpro em{margin-left: 20px;}
+.content .slide_mask .buysallpro span{margin-left: 20px;display:inline-block ;height: 33px;}
+/*买车流程*/
+.content .slide_mask .buysallpro .buyprogress{
+    width: 500px;height: 325px;position: absolute;top: 50px;left: 20px;
+    z-index: 1005;text-align: left;
+}
+.content .slide_mask .buysallpro .buyprogress p{margin-top: 22px;}
+.content .slide_mask .buysallpro .buyprogress span{margin-top: 10px; color: #8f969e;
+    font-size: 14px;
+    margin-left: 30px;
+position: relative}
+.content .slide_mask .buysallpro .buyprogress span em{
+    width: 13px;
+    height: 10px;
+    background:url("../guazi/sprite_yasuo.png") no-repeat -1px -101px;
+    position: absolute;
+    right: -33px;
+    bottom: 18px;
+}
+.content .slide_mask .buysallpro .buyprogress ul{width: 800px;margin-top: 22px;}
+.content .slide_mask .buysallpro .buyprogress ul li{width: 116px;float: left;cursor: pointer}
+/*预约看车*/
+.content .slide_mask .buysallpro .buyprogress ul .watchcar .icon5667{width:32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat 2px -57px;}
+/*专人带看*/
+.content .slide_mask .buysallpro .buyprogress ul .personwatch .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -40px -21px;}
+/*签署合同*/
+.content .slide_mask .buysallpro .buyprogress ul .signcontract .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -85px -21px;}
+/*交易过户*/
+.content .slide_mask .buysallpro .buyprogress ul .tradetoperson .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -121px -21px;}
+/*买车流程结束*/
+/*卖车流程*/
+.content .slide_mask .buysallpro .salecarprogress{
+    width: 500px;height: 325px;position: absolute;top: 50px;left: 20px;
+    z-index: 1005;text-align: left;
+}
+.content .slide_mask .buysallpro .salecarprogress p{margin-top: 22px;}
+.content .slide_mask .buysallpro .salecarprogress span{margin-top: 10px; color: #8f969e;
+    font-size: 14px;
+    margin-left: 30px;
+    position: relative}
+.content .slide_mask .buysallpro .salecarprogress span em{
+    width: 13px;
+    height: 10px;
+    background:url("../guazi/sprite_yasuo.png") no-repeat -1px -101px;
+    position: absolute;
+    right: -33px;
+    bottom: 18px;
+}
+.content .slide_mask .buysallpro .salecarprogress ul{width: 800px;margin-top: 22px;}
+.content .slide_mask .buysallpro .salecarprogress ul li{width: 116px;float: left;cursor: pointer}
+.salecarprogress{display: none}
+
+/*在线预约*/
+.content .slide_mask .buysallpro .salecarprogress ul .watchcar .icon5667{width:32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -348px 4px;}
+/*全网代售*/
+.content .slide_mask .buysallpro .salecarprogress ul .personwatch .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -302px -29px;}
+/*三方约看*/
+.content .slide_mask .buysallpro .salecarprogress ul .signcontract .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -302px -64px;}
+/*签约过户*/
+.content .slide_mask .buysallpro .salecarprogress ul .tradetoperson .icon5667{width: 32px;height: 40px;margin: 0 auto; background: url(../guazi/sprite_yasuo.png) no-repeat -302px -102px;}
+
+/*<!--买卖车流程mask结束-->*/
+/*猜你喜欢开始*/
+.content .guessyoulike{
+    width: 100%;
+    height: 1117px;
+    position: absolute;
+    top: 1940px;
+    background-color: #f5f5f7;
+}
+.content .guessyoulike ul{
+    width: 1200px;
+    height: 72px;
+
+    margin: 0 auto;
+    padding-left: 140px;
+    box-sizing: border-box;
+
+}
+.content .guessyoulike ul li{
+    float: left;
+    color: #495056;
+    width: 128.73px;
+    line-height: 72px;
+    text-align: center;
+
+}
+.content .guessyoulike ul li span{
+    width: 64px;
+    height: 60px;
+    display: inline-block;
+}
+.content .guessyoulike ul li span.selected{
+    border-bottom: 3px solid #22ac38
+}
+.content .guessyoulike ol{
+    width: 1220px;
+    height: 354px;
+    margin: 0 auto;
+    padding-bottom: 95px;
+}
+.content .guessyoulike ol li{
+    width: 285px;
+    height: 314px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    vertical-align: top;
+    background-color: #fff;
+}
+.content .guessyoulike ol li .cardes{
+    width: 100%;
+    height: 122px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.content .guessyoulike ol li .cardes .tlt{
+    font-size: 17px;
+    color:#495056 ;
+    margin-bottom: 13px;
+}
+.content .guessyoulike ol li .cardes p:nth-of-type(2){
+    color:#a5abb2 ;
+    font-size: 14px;
+
+}
+.content .guessyoulike ol li .cardes p:nth-of-type(3){
+    line-height: 30px;
+    font-size: 20px;
+    color: #f95523;
+
+}
+.content .guessyoulike ol li .cardes p:nth-of-type(3) span{
+    text-align: center;
+    float: right;
+    display: inline-block;
+    width: 46px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
+    background-color: rgb(255,238,218);
+}
+.content .guessyoulike .carmore{
+    width: 1200px;
+    height: 77px;
+    line-height: 100px;
+    text-align: center;
+    color:  #495056;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.content .guessyoulike .carmore a{
+    color: #495056;
+    cursor: pointer;
+    position: relative;
+}
+.content .guessyoulike .carmore a:hover{
+    color: #22ac38;
+}
+.content .guessyoulike .carmore a img{
+    position: absolute;
+    top: 1.9px;
+    right: -21px;
+}
+/*猜你喜欢结束*/
+/*<!--让每个家庭都拥有更好的车-->.*/
+.content .familycar{
+    width: 100%;
+    height: 120px;
+    /*background: url("guazi/familycar_bg.jpg");*/
+    position: absolute;
+    top: 3058px;
+    z-index: 5;
+}
+.content .familycar .familycarContent{
+    width: 820px;
+    height: 100%;
+
+    margin: 0 auto;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+.content .familycar .familycarContent .carleft{
+    width: 430px;
+    height: 120px;
+    float: left;
+}
+.content .familycar .familycarContent .carright{
+    width: 390px;
+    height: 120px;
+    float: right;
+}
+
+.content .familycar .familycarContent .carright .iwillbuy:hover{
+    background-color: #349b5e;
+}
+.content .familycar .familycarContent .carright .iwillsale{
+    background-color:#97cf00 ;
+}
+.content .familycar .familycarContent .carright .iwillsale:hover{
+    background-color:#88ba00 ;
+}
+.content .familycar .familycarContent p{
+    font-size: 33px;
+    font-family: '隶书';
+    color: rgb(73,80,86);
+    float: left;
+}
+.content .familycar .familycarContent p span{
+    color: rgb(60,180,109);
+}
+.content .familycar .freetel{
+    width: 382px;
+    font-size: 14px;
+    color: #858d96;
+    text-align: center;
+    margin-left: 43px;
+    float: left;
+}
+.content .familycar .familycarContent button{
+    width: 178px;
+    height: 64px;
+    float: right;
+    color: white;
+    outline: none;
+    border:none;
+    background: rgb(60,180,109);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 11px;
+    margin-bottom: 35px;
+
+}
+.content .familycar .familycarContent button.buy{
+    background-color: rgb(151,207,0);
+}
+/*<!--让每个家庭都拥有更好的车结束-->.*/
+
+
+/*底部开始*/
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: #2a2c37;
+    position: absolute;
+    top: 3594px;
+    padding-top: 47px;
+    box-sizing: border-box;
+}
+.footer .foot_top{
+    width: 100%;
+    height: 133px;
+
+}
+.footer .foot_top .footlogo{
+    width: 249px;
+    height: 100%;
+    position: relative;
+
+    float: left;
+}
+.footer .foot_top .footlogo span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    background: url("../guazi/footersprite.png") -153px -85px;
+    background-color: #2a2c37;
+}
+.footer .foot_top .top_tel{
+    float: left;
+    width: 384px;
+    height: 100%;
+
+    padding: 15px 0 0 15px;
+    box-sizing: border-box;
+    color: #b8b8b8;
+    font-size: 14px;
+}
+.footer .foot_top .top_tel .tel_top{
+    margin-bottom: 25px;
+}
+.footer .foot_top .top_tel .tel_bottom p:nth-of-type(2){
+    line-height: 30px;
+}
+.footer .foot_top .top_code{
+    width: 248px;
+    height: 100%;
+
+    float: left;
+    padding: 15px 0 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #b8b8b8;
+}
+.footer .foot_top .top_code span{
+    position: absolute;
+    bottom: 12px;
+    left: 28px;
+
+}
+.footer .foot_top .top_code span:nth-of-type(2){
+    bottom: 12px;
+    left: 146px;
+}
+.footer .foot_top .top_code img{
+    margin-right: 27px;
+}
+.footer .foot_top .top_about{
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 422px;
+    height: 100%;
+
+    float: left;
+}
+.footer .foot_top .top_about .ullia{
+    height: 40px;
+}
+.footer .foot_top .top_about .ullia ul{
+    height: 40px;
+}
+.footer .foot_top .top_about .ullia ul li{
+    float: left;
+    font-size: 14px;
+
+    width: 56px;
+    height: 19px;
+    margin-right: 10px;
+}
+.footer .foot_top .top_about .ullia ul li a{
+    color: #b8b8b8;
+}
+.footer .foot_top .top_about .copyright{
+    line-height: 20px;
+    font-family: simhei;
+    font-size: 12px;
+    color:  #b8b8b8;
+}
+.footer .foot_top .top_about .procy{
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px;
+}
+.footer .foot_top .top_about .procy span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+    background: url("../guazi/sprite2.png") no-repeat 0px -63px;
+}
+.footer .foot_middle{
+    width: 100%;
+    height: 160px;
+
+}
+
+.footer .foot_middle .hotbrand{
+    width: 1190px;
+    height: 28px;
+
+    margin:  0 auto;
+
+}
+.footer .foot_middle .hotbrand .tlt{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+    color: #666666;
+}
+.footer .foot_middle .hotbrand a{
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+.footer .foot_middle .hotcity a{
+    margin-right: 19px;
+}
+.footer .foot_middle .hotbrand .openbox{
+    width: 16px;
+    height: 9px;
+    margin-top: 10px;
+    margin-right: 5px;
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*right: 0px;*/
+    display: inline-block;
+    float: right;
+    background: url("../guazi/footersprite.png") no-repeat -71px -100px;
+}
+
+.footer .foot_bottom{
+    width: 100%;
+    height: 80px;
+
+
+    text-align: center;
+    line-height: 80px;
+    font-size: 12px;
+    color: #666;
+
+}
+
+
+/*底部结束*/
+
+/*点击登录*/
+.bodymask{
+    width: 100%;
+    height: 1000%;
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 2002;
+    display: none;
+}
+
+ .logonclick{
+    width: 800px;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -215px;
+    background-color: #fff;
+    opacity: 100%;
+     z-index: 2003;
+     border: 3px solid #d8dde5;
+     display: none;
+}
+.logonclick .icon-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../guazi/icon-close.png) no-repeat 50%;
+}
+.logonclick .logoin-tlt{
+    width: 100%;
+    line-height: 74px;
+    font-size: 24px;
+    color: #495056;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.logonclick .ulinput{
+    padding-left: 132px;
+
+}
+.logonclick .ulinput li{
+    height: 42px;
+    padding-bottom: 12px;
+}
+.logonclick .ulinput .pnum{
+    float: left;
+    width: 107px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+
+}
+.logonclick .ulinput .txt-phone{
+    float: left;
+    width: 390px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+.logonclick .ulinput .psecurity{
+    float: left;
+    width: 107px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+    text-align:justify;
+}
+.logonclick .ulinput .txt-security{
+    width: 232px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+
+}
+.logonclick .ulinput .get-code{
+    float: left;
+    width: 150px;
+    height: 42px;
+    background: #22ac38;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 8px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.logonclick .ulinput .get-code:hover{
+    background-color: #179500;
+}
+/*placeholder设置样式*/
+input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 12px;
+     }
+.logonclick .logon-error{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff7e00;
+    margin-top: -12px;
+}
+.logonclick .btn-submit{
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+}
+.logonclick .btn-submit:hover{
+    background-color: #179500 ;
+}
+.logonclick .free-askphone{
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #22ac38;
+    padding: 20px 0 10px;
+}
+.agree-text {
+    text-align: center;
+    color: #b0b7c0;
+    font-size: 12px;
+    line-height: 12px;
+}
+.agree-text a {
+    color: #22ac38;
+}
+/*点击登录结束*/
+/*点击意见反馈*/
+.pop-box-feed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2201;
+    margin: -275px 0 0 -400px;
+    width: 800px;
+    height: 550px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 3px solid #d8dde5;
+    display: none;
+}
+.pop-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../guazi/icon-close.png) no-repeat 50%;
+}
+.feed-tit {
+    font: 24px/70px microsoft yahei;
+    color: #495056;
+    text-align: center;
+}
+.feed-content.active {
+    display: block;
+    padding: 0 66px 0 48px;
+    font-size: 16px;
+}
+.feed-tit2 {
+    padding-top: 17px;
+    font-size: 18px;
+    color: #757f89;
+}
+.feed-selectlist {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 24px;
+    zoom: 1;
+}
+.feed-selectlist:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.feed-selectlist li {
+    float: left;
+    width: 136px;
+    margin-top: 10px;
+    color: #495056;
+    cursor: pointer;
+}
+.feed-form {
+    margin: 27px 0 0;
+    overflow: hidden;
+}
+.feed-textarea, .feed-textarea2 {
+    position: relative;
+    overflow: hidden;
+}
+.feed-textarea2 {
+    margin-top: 13px;
+}
+.feed-textarea textarea {
+    float: left;
+    width: 658px;
+    height: 118px;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+}
+.text-limit {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: #a5abb2;
+}
+.feed-textarea2 textarea {
+    height: 40px;
+    line-height: 40px;
+}
+.feed-textarea2 textarea, .feed-textarea textarea {
+    float: left;
+    width: 658px;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+}
+.feed-error-tip {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff7e00;
+}
+.feed-btn {
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+}
+/*意见反馈结束*/
+/*隐藏工具栏*/
+.toolbar{
+    width: 26px;
+    height: 74px;
+    background-color: #434857;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -37px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    line-height: 14px;
+    padding-top: 10px;
+    z-index: 2018;
+    font-size: 12px;
+    display: none;
+}
+a.toolbar:after {
+    content: "";
+    width: 6px;
+    height: 11px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    background: url(../guazi/spritefixed.png) no-repeat -252px -18px;
+    background-size: 259px 361px;
+}

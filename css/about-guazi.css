@@ -1,0 +1,802 @@
+/*头部开始*/
+.header{
+    background: #fff;
+}
+.hd-top {
+    width: 1190px;
+    height: 85px;
+    margin: 0 auto;
+}
+.header .hd-top .logo{
+    display: block;
+    float: left;
+    width: 256px;
+    height: 85px;
+    background-position: 0px 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image:url(../about-guazi-img/sprite1.png);
+}
+.c2city {
+    margin: 25px 0 0 30px;
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    float: left;
+    _zoom: 1;
+}
+.choose-city {
+    background: #fff;
+    padding: 0 15px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+.choose-city span {
+    color: #000;
+    font-size: 14px;
+}
+.choose-city i{
+    background-repeat: no-repeat;
+    background-image: url(../about-guazi-img/sprite1.png);
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 8px;
+    margin-left: 12px;
+    background-position: 0 -100px;
+}
+.uc, .uc a {
+    height: 30px;
+}
+.uc {
+    float: right;
+    padding: 0 8px 0 17px;
+    margin: 27px 0 0 23px;
+    border-left: 1px solid #d4d4d4;
+}
+.uc a {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 33px;
+    background: url(../about-guazi-img/icon-logon-ok.png) no-repeat left 3px;
+    font-size: 14px;
+    color: #2e2e2e;
+}
+.uc a i{
+    font-style: normal;
+}
+.hot-phone {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 27px;
+    color: #22ac38;
+    font-weight: 700;
+}
+.hot-phone i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    float: left;
+    background-position: -30px -100px;
+    background-repeat: no-repeat;
+    background-image: url(../about-guazi-img/sprite1.png);
+}
+
+.autocomplete {
+    position: relative;
+
+}
+.autocomplete .autocomplete-dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 5px 0;
+    z-index: 9998;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #22ac38;
+    box-shadow: 2px 2px 3px #eee;
+    color: #000;
+    overflow: auto;
+    _overflow-x: hidden;
+    text-align: left;
+}
+.autocomplete .autocomplete-dropdown ul li {
+    list-style: none outside none;
+    color: #495056;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 10px;
+    height: 26px;
+    overflow: hidden;
+    float: none;
+}
+.search-box {
+    /*position: relative;*/
+    z-index: 20;
+    float: right;
+    width: 328px;
+    height: 36px;
+    padding: 25px 95px 0 0;
+}
+.search-box .search-input {
+    font-size: 14px;
+    float: left;
+    width: 244px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    border: 1px solid #22ac38;
+    border-right: none;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-box .search-btn {
+    font-size: 14px;
+    float: right;
+    width: 63px;
+    height: 36px;
+    color: #fff;
+    background: #22ac38;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+.search-btn:hover {
+    background: #179500;
+}
+.nav {
+    height: 46px;
+    line-height: 46px;
+    background: #22ac38;
+}
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+.w:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 30px;
+    color: #fff;
+}
+.nav a.active, .nav a:hover {
+    text-decoration: none;
+    background: #179500;
+    color: #fff;
+}
+.nav a.hot-icon {
+    position: relative;
+}
+.nav a.hot-icon i {
+    position: absolute;
+    top: 3px;
+    right: 12px;
+    display: block;
+    width: 21px;
+    height: 15px;
+    background: url(../about-guazi-img/hot-icon.png) no-repeat;
+}
+.app-web {
+    position: relative;
+}
+.fr {
+    float: right;
+}
+.app-guide {
+    display: none;
+    width: 390px;
+    height: 160px;
+    padding: 25px 25px 25px 0;
+    background: #e7f1e8;
+    position: absolute;
+}
+.guide-ewm {
+    float: right;
+    width: 158px;
+    height: 158px;
+    border: 1px solid #d4d6d5;
+    padding-left: 5px;
+    margin: 0 auto;
+    background-position: 332px -270px;
+    background-image: url(../about-guazi-img/sprite3.png);
+    background-repeat: no-repeat;
+}
+.guide-ewm img {
+    display: block;
+    width: 158px;
+    height: 158px;
+}
+.guide-txt {
+    float: right;
+    width: 225px;
+}
+.guide-txt-1 {
+    font-size: 18px;
+    color: #22ac38;
+    text-align: center;
+    line-height: 46px;
+    font-weight: 700;
+}
+.guide-txt-2 {
+    font-size: 14px;
+    color: #666;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 28px;
+    margin-left: 45px;
+    background: url(../about-guazi-img/icon-logon-ok.png) no-repeat left -26px;
+}
+/*头部结束*/
+/*内容开始*/
+.j-l {
+    width: 202px;
+    float: left;
+}
+
+.j-l li {
+    background-color: #fafafa;
+    color: #666;
+}
+.j-l li.on{
+    background-color: #fff;
+    color: #333;
+
+}
+.j-l li .tit-big {
+    display: block;
+    line-height: 62px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.j-l li.on .border-bottom {
+    height: auto;
+}
+.j-l li.hover .icon1, .j-l li.on .icon1 {
+    background-position: right -155px;
+    height: 62px;
+    width: 51px;
+    display: inline-block;
+    background-image: url(../about-guazi-img/sprite2.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-right: 14px;
+}
+#content_aboutus:hover .icon1{
+    background-position: right -155px !important;
+}
+.j-l li .tit-big {
+    display: block;
+    line-height: 62px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.j-l li .tit-big a, .j-l li .tit-big a:hover{
+    color: #666;
+    text-decoration: none;
+}
+.j-l li .tit-big a:hover span{
+    color: black;
+}
+
+.j-l li .border-bottom {
+    display: block;
+    border-bottom: 1px dashed #e7e7e7;
+    height: 61px;
+    vertical-align: top;
+}
+.j-l li .icon3 {
+    background-position: right -100px;
+    background-image: url(../about-guazi-img/sprite2.png);
+    height: 62px;
+    width: 51px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-right: 14px
+}
+#content_contactus:hover .icon3{
+    background-position: right -275px !important;
+}
+.j-r {
+    width: 948px;
+    float: left;
+    padding: 10px 0 0 40px;
+}
+.about_pad {
+    padding: 40px 0 0;
+    width: 964px;
+    min-height: 200px;
+    _height: 200px;
+}
+.ban_a1 {
+    background-image: url(../about-guazi-img/no-middleman.png);
+    width: 962px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+.about_pad p {
+    padding: 0 20px;
+    text-indent: 2em;
+    font-size: 16px;
+    color: #666;
+    line-height: 36px;
+}
+
+.con-ser {
+    width: 926px;
+    padding: 40px 0;
+}
+.con-ser:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.con-ser li {
+    float: left;
+    width: 180px;
+    padding-top: 140px;
+    background-image: url(../about-guazi-img/icon-list.png);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    line-height: 20px;
+}
+.con-ser .li-1 {
+    background-position: 24px 0;
+}
+.con-ser .li-2 {
+    background-position: -172px 0;
+}
+.con-ser .li-3 {
+    background-position: -373px 0;
+}
+.con-ser .li-4 {
+    background-position: -552px 0;
+}
+.con-ser .li-5 {
+    background-position: -752px 0;
+}
+.big-era {
+    width: 926px;
+    padding: 28px 0;
+    margin: 0 auto;
+}
+.era-box {
+    padding-top: 25px;
+    background: url(../about-guazi-img/icon-point-new.png) repeat-y center -35px;
+}
+.era-box li {
+    height: 81px;
+}
+.era-box li span {
+    display: block;
+}
+
+.era-box .span1, .era-box .span2 {
+    width: 430px;
+    text-align: right;
+    font-size: 16px;
+}
+.era-box li .span1, .era-box li .span3 {
+    background-image: url(../about-guazi-img/icon-time-new.png);
+    background-repeat: no-repeat;
+}
+.era-box .span1 {
+    padding-right: 20px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background-position: right 0;
+}
+.era-box .span2 {
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+}
+
+.era-box .span3, .era-box .span4 {
+    padding-left: 494px;
+    font-size: 16px;
+}
+.era-box .span3 {
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background-position: 476px -30px;
+}
+.era-box .span4 {
+    width: 534px;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+}
+
+.contact {
+    padding-left: 330px;
+    font-size: 18px;
+    color: #3b3b3b;
+    padding-bottom: 100px;
+    display: none;
+}
+.logo-l {
+    width: 280px;
+    float: left;
+    margin-left: -330px;
+    padding: 50px 0 0 50px;
+}
+.logo_bgf5 {
+    background: url(../about-guazi-img/content-logo.png) no-repeat;
+    width: 184px;
+    height: 160px;
+    display: inline-block;
+}
+.contact .job-open {
+    background: none;
+    margin-bottom: 15px;
+}
+.job-open {
+    display: block;
+    height: 46px;
+    background: #f5f5f5 url(//sta.guazistatic.com/c2c_web/icon_arrow.011ae3e….png) no-repeat right 18px;
+    font-size: 26px;
+    color: #2b577a;
+    line-height: 46px;
+    border-bottom: 1px solid #bad4e8;
+    margin-bottom: 10px;
+
+}
+
+/*内容结束*/
+/*底部开始*/
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: #2a2c37;
+    padding-top: 47px;
+    box-sizing: border-box;
+}
+.footer .foot_top{
+    width: 100%;
+    height: 133px;
+
+}
+.footer .foot_top .footlogo{
+    width: 249px;
+    height: 100%;
+    position: relative;
+
+    float: left;
+}
+.footer .foot_top .footlogo span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    background: url("../guazi/footersprite.png") -153px -85px;
+    background-color: #2a2c37;
+}
+.footer .foot_top .top_tel{
+    float: left;
+    width: 384px;
+    height: 100%;
+
+    padding: 15px 0 0 15px;
+    box-sizing: border-box;
+    color: #b8b8b8;
+    font-size: 14px;
+}
+.footer .foot_top .top_tel .tel_top{
+    margin-bottom: 25px;
+}
+.footer .foot_top .top_tel .tel_bottom p:nth-of-type(2){
+    line-height: 30px;
+}
+.footer .foot_top .top_code{
+    width: 248px;
+    height: 100%;
+    float: left;
+    padding: 15px 0 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    color: #b8b8b8;
+}
+.footer .foot_top .top_code span{
+    position: absolute;
+    bottom: 12px;
+    left: 28px;
+
+}
+.footer .foot_top .top_code span:nth-of-type(2){
+    bottom: 12px;
+    left: 146px;
+}
+.footer .foot_top .top_code img{
+    margin-right: 27px;
+}
+.footer .foot_top .top_about{
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 422px;
+    height: 100%;
+
+    float: left;
+}
+.footer .foot_top .top_about .ullia{
+    height: 40px;
+}
+.footer .foot_top .top_about .ullia ul{
+    height: 40px;
+}
+.footer .foot_top .top_about .ullia ul li{
+    float: left;
+    font-size: 14px;
+
+    width: 56px;
+    height: 19px;
+    margin-right: 10px;
+}
+.footer .foot_top .top_about .ullia ul li a{
+    color: #b8b8b8;
+}
+.footer .foot_top .top_about .copyright{
+    line-height: 20px;
+    font-size: 12px;
+    color:  #b8b8b8;
+}
+.footer .foot_top .top_about .procy{
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px;
+}
+.footer .foot_top .top_about .procy span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 5px;
+    background: url("../guazi/sprite2.png") no-repeat 0px -63px;
+}
+.footer .foot_middle{
+    width: 100%;
+    height: 160px;
+
+}
+
+.footer .foot_middle .hotbrand{
+    width: 1190px;
+    height: 28px;
+
+    margin:  0 auto;
+
+}
+.footer .foot_middle .hotbrand .tlt{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+    color: #666666;
+}
+.footer .foot_middle .hotbrand a{
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+.footer .foot_middle .hotcity a{
+    margin-right: 19px;
+}
+.footer .foot_middle .hotbrand .openbox{
+    width: 16px;
+    height: 9px;
+    margin-top: 10px;
+    margin-right: 5px;
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*right: 0px;*/
+    display: inline-block;
+    float: right;
+    background: url("../guazi/footersprite.png") no-repeat -71px -100px;
+}
+
+.footer .foot_bottom{
+    width: 100%;
+    height: 80px;
+
+
+    text-align: center;
+    line-height: 80px;
+    font-size: 12px;
+    color: #666;
+
+}
+
+
+/*底部结束*/
+/*点击登录*/
+.bodymask{
+    width: 100%;
+    height: 1000%;
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 2002;
+    display: none;
+}
+
+.logonclick{
+    width: 800px;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -215px;
+    background-color: #fff;
+    opacity: 100%;
+    z-index: 2003;
+    border: 3px solid #d8dde5;
+    display: none;
+}
+.logonclick .icon-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../guazi/icon-close.png) no-repeat 50%;
+}
+.logonclick .logoin-tlt{
+    width: 100%;
+    line-height: 74px;
+    font-size: 24px;
+    color: #495056;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.logonclick .ulinput{
+    padding-left: 132px;
+
+}
+.logonclick .ulinput li{
+    height: 42px;
+    padding-bottom: 12px;
+}
+.logonclick .ulinput .pnum{
+    float: left;
+    width: 107px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+
+}
+.logonclick .ulinput .txt-phone{
+    float: left;
+    width: 390px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+.logonclick .ulinput .psecurity{
+    float: left;
+    width: 107px;
+    line-height: 42px;
+    color: #495056;
+    font-size: 18px;
+    text-align:justify;
+}
+.logonclick .ulinput .txt-security{
+    width: 232px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 15px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+
+}
+.logonclick .ulinput .get-code{
+    float: left;
+    width: 150px;
+    height: 42px;
+    background: #22ac38;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 8px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.logonclick .ulinput .get-code:hover{
+    background-color: #179500;
+}
+/*placeholder设置样式*/
+input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 12px;
+}
+.logonclick .logon-error{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff7e00;
+    margin-top: -12px;
+}
+.logonclick .btn-submit{
+    display: block;
+    width: 410px;
+    height: 50px;
+    border-radius: 2px;
+    background: #22ac38;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+}
+.logonclick .btn-submit:hover{
+    background-color: #179500 ;
+}
+.logonclick .free-askphone{
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    text-align: center;
+    color: #22ac38;
+    padding: 20px 0 10px;
+}
+.agree-text {
+    text-align: center;
+    color: #b0b7c0;
+    font-size: 12px;
+    line-height: 12px;
+}
+.agree-text a {
+    color: #22ac38;
+}
+/*点击登录结束*/

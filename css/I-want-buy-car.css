@@ -1,0 +1,74 @@
+header{
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+    background-color: red;
+}
+.header .logo{
+    width: 20%;height: 64px;float: left;
+}
+.header .logo h1 a{display: inline-block;
+    float: left;
+    width: 64px;
+    height: 64px;
+    background: url("../guazi/sprite_yasuo.png") no-repeat -181px -33px}
+
+header .logo span{
+    float: right;
+
+}
+.header .mainnav{width: 80%;height: 100%;float: left;position: relative}
+.header .mainnav ul{float: left;
+    width: 700px;
+    height: 58px;
+    /*padding: 0 50px 0 50px;*/
+    /*box-sizing: border-box;*/
+}
+.header .mainnav ul li{float: left;margin:0 27px;}
+.header .mainnav ul li a{display: inline-block;height: 75px;text-decoration: none;color: black;font-size: 14px;overflow: hidden;}
+.header .mainnav ul li a:hover{
+    color: #22ac38;
+}
+.color22ac38{
+    color:#22ac38 !important;
+}
+.borderbottom{
+    border-bottom: 2px solid #22ac38;
+}
+.hovercolor{}
+.hovercolor:hover{color: #22ac38;}
+.header .mainnav ul li a:last-child{position: relative;}
+
+.header .mainnav .logon{
+    height: 32px;
+    cursor: pointer;
+    margin-right: 88px;
+    margin-top: 36px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    background: url(../guazi/sprite_yasuo.png);
+    background-position: 13px -205px;
+    width: 60px;position: absolute;top: -5px;right: 170px;}
+.header .mainnav .logon:hover{
+    background-position: 13px -233px;
+}
+.header .mainnav .logon:hover a{
+    color:#22ac38;
+}
+.header .mainnav .logon a{margin-left: 30px;}
+
+.header .mainnav span{color: #22ac38;font-size: 24px;font-weight: bolder;float: right;}
+.header .mainnav span em{
+    position: relative;
+    right: 35px;
+    top: -3px;
+    font-size: 18px;}
+.white{
+    color: white !important;
+}
+.logowhite{
+
+    background-position: 13px -262px !important;
+}
+/*头部结束*/

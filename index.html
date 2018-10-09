@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cssreset.css"/>
+		<link rel="stylesheet" href="css/indexcss.css">
+	</head>
+	<body>
+	<!--点击登录-->
+	<div class="bodymask"></div>
+	<div class="logonclick">
+		<span class="icon-close" id="closeLogin" title="关闭"></span>
+		<p class="logoin-tlt">瓜子二手车只卖网</p>
+		<ul class="ulinput">
+			<li><p class="pnum">手机号码</p><input type="text" placeholder="请输入您的手机号码" class="txt-phone"></li>
+			<li><p class="psecurity">验证码</p><input type="text" placeholder="请输入验证码" class="txt-security">
+				<button class="get-code">获取验证码</button></li>
+		</ul>
+		<p class="logon-error"></p>
+		<button class="btn-submit">登录</button>
+		<p class="free-askphone">免费咨询400-060-8632</p>
+		<p class="agree-text">登录即视为同意<a href="javascript:;">《用户使用协议》</a>及<a href="javascript:;" >《隐私权条款》</a></p>
+	</div>
+	<!--点击登录结束-->
+
+		<!--右边固定条-->
+			<!--点击意见反馈-->
+			<div class="pop-box pop-box-feed">
+		<div class="pop-close js-popclose"></div>
+		<p class="feed-tit">意见反馈</p>
+		<div class="feed-content active">
+			<p class="feed-tit2">您好！感谢您给我们提出的宝贵意见</p>
+			<ul class="feed-selectlist clearfix js-feedbacklist" typenum="0">
+				<li class="js-feedbacktype" typenum="1"><input type="radio" name="feed">车况类投诉</li>
+				<li class="js-feedbacktype" typenum="2"><input type="radio" name="feed">费用类投诉</li>
+				<li class="js-feedbacktype item-design" typenum="3"><input type="radio" name="feed">过户类投诉</li>
+				<li class="js-feedbacktype" typenum="4"><input type="radio" name="feed">服务类投诉</li>
+				<li class="js-feedbacktype item-last" typenum="5"><input type="radio" name="feed">金融贷款</li>
+				<li class="js-feedbacktype" typenum="6"><input type="radio" name="feed">网页功能</li>
+				<li class="js-feedbacktype" typenum="7"><input type="radio" name="feed">车辆信息错误</li>
+				<li class="js-feedbacktype item-stop" typenum="8"><input type="radio" name="feed">停售改价</li>
+				<li class="js-feedbacktype" typenum="9"><input type="radio" name="feed">其他</li>
+			</ul>
+			<div class="feed-form">
+				<div class="feed-textarea js-feed-error1">
+					<textarea class="js-fbcontent" maxlength="500" placeholder="您使用我们的产品过程中，有任何意见和建议，在这里可以畅所欲言，我们将据此优化我们的产品为您提供更好的服务。"></textarea>
+					<span class="text-limit"><i id="js-fblen">0</i>/500</span>
+				</div>
+				<div class="feed-textarea2 js-feed-error2">
+					<textarea class="js-fbcontact js-phone-input" name="" placeholder="填写您的手机号后，我们会尽快回复您。"></textarea>
+				</div>
+			</div>
+			<p class="feed-error-tip js-feed-error-tip"></p>
+			<button class="feed-btn js-feedbtn" data-gzlog="tracking_type=click&amp;eventid=0220050000099004">我要反馈</button>
+		</div>
+
+	</div>
+			<!--意见反馈结束-->
+			<!--隐藏工具栏-->
+			<a class="toolbar" href="javascript:;">工<br>具<br>栏</a>
+	        <!--隐藏工具栏结束-->
+		<div class="rightfixed" >
+		  <div class="iconout" id="iconout">
+			<div class="fixicon1 fixicon">
+				<div class="firsticonshow"><img src="guazi/ewm-app-2.png" alt="" />
+				<p>下载APP了解更多</p></div>
+			</div>
+			<div class="fixicon2 fixicon">
+				<div class="firsticonshow"><img src="guazi/ewm-wx-2.png" alt="" />
+				<p>关注公众号了解更多信息</p></div>
+			</div>
+			<div class="fixicon3 fixicon">
+				<div class="thirdiconshow">
+				<p>意见反馈</p></div>
+			</div>
+			
+			<div class="fixicon4 fixicon">
+			   <div class="fourthiconshow">
+				<p>免费咨询   400-060-8632</p></div>
+			</div>
+			<div class="fixicon5 fixicon"></div>
+          </div>
+		</div>
+		<!--banner轮播-->
+		<div class="banner">
+			<div class="bannerout">
+				<ul class="ulimg cursorpoiter">
+					<li><img src="guazi/banner2 (2).jpg" class="bannerimg"/></li>
+					<li><img src="guazi/banner1.jpg" alt="" class="bannerimg"></li>
+					<li><img src="guazi/banner3.jpg" alt="" class="bannerimg"></li>
+					<li><img src="guazi/banner4.jpg" alt="" class="bannerimg"></li>
+				</ul>
+				<span class="left"></span>
+				<span class="right"></span>
+				<ol class="olcircle">
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+			<!--轮播结束-->
+			<!--头部开始-->
+		<div class="header">
+			<div class="logo">
+				<!--logo图片-->
+				<h1><a href="" title="瓜子二手车"></a></h1>
+				<span class="city" style="cursor: pointer">广州 <svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-moreunfold"></use>
+</svg>
+<!--城市群-->
+<div class="citiesgroup">
+				<ul class="aroundcity">
+					<li>
+						<span class="color22ac38">周边</span>
+						<a</a>
+						<a>中山</a>
+						<a>江门</a>
+						<a>珠海</a>
+						<a>汕头</a>
+						<a>惠州</a>
+					</li>
+					<li>
+
+						<span class="color22ac38">热门</span>
+						<a>全国</a>
+						<a>北京</a>
+						<a>上海</a>
+						<a>广州</a>
+						<a>深圳</a>
+						<a>成都</a>
+						<a>重庆</a>
+						<a>杭州</a>
+						<a>苏州</a>
+						<a>沈阳</a>
+						<a>武汉</a>
+					</li>
+				</ul>
+				<ul class="countrycity">
+					<li>
+						<span>A</span>
+						<a href="javascript:;">安庆</a>
+					</li>
+				</ul>
+			</div>
+				</span>
+			</div>
+			<div class="mainnav">
+				<ul class="navlist">
+					<li><a href="" class="borderbottom">首页</a></li>
+					<li><a href="">我要买车</a></li>
+					<li><a href="">我要卖车</a></li>
+					<li><a href="">瓜子服务</a></li>
+					<li><a href="">瓜子金融</a></li>
+					<li><a href=""> 毛豆新车</a></li>
+				</ul>
+					<span class="num400"><em class="line">|</em> 400-060-8632  </span>
+				<div class="logon">
+					<a href="javascript:;" class="logona" id="header_logon">登录 </a>
+				</div>
+			</div>
+			<!--<div class="citiesgroup">
+				<ul class="aroundcity">
+					<li>
+						<span class="color22ac38">周边</span>
+						<a</a>
+						<a>中山</a>
+						<a>江门</a>
+						<a>珠海</a>
+						<a>汕头</a>
+						<a>惠州</a>
+					</li>
+					<li>
+
+						<span class="color22ac38">热门</span>
+						<a>全国</a>
+						<a>北京</a>
+						<a>上海</a>
+						<a>广州</a>
+						<a>深圳</a>
+						<a>成都</a>
+						<a>重庆</a>
+						<a>杭州</a>
+						<a>苏州</a>
+						<a>苏州</a>
+						<a>沈阳</a>
+						<a>武汉</a>
+					</li>
+				</ul>
+				<ul class="countrycity">
+					<li>
+						<span>A</span>
+						<a href="javascript:;">安庆</a>
+					</li>
+				</ul>
+			</div>-->
+		</div>
+			<!--头部结束-->
+	</div>
+		<!--内容开始-->
+		<div class="content">
+			<div class="wantcar">
+				<div class="buycar">
+					<div><span class="hovercolor cursorpoiter">我要买车 > </span>
+					<input type="text" / placeholder="搜索您想要的车">
+					<div class="hotrecommend">
+						<ul>
+							<li class="item"><span class="hot-tip">热门推荐</span></li>
+							<li class="item">朗逸</li>
+							<li class="item">科鲁兹</li>
+							<li class="item">轩逸</li>
+							<li class="item">五菱宏光</li>
+							<li class="item">福克斯</li>
+							<li class="item">英朗</li>
+							<li class="item">大众POLO</li>
+							<li class="item">速腾</li>
+							<li class="item">哈弗H6</li>
+						</ul>
+					</div>
+					</div>
+					<div class="carname">
+					<ul>
+						<li><img src="guazi/honda.png" alt=""/>本田</li>
+						<li><img src="guazi/dazhong.png" alt="" />大众</li>
+						<li><img src="guazi/richan.png" alt="" />日产</li>
+						<li><img src="guazi/toyota.png" alt="" />丰田</li>
+						<li><img src="guazi/bmw.png" alt="" />宝马</li>
+						<li><img src="guazi/buick.png" alt="" />别克</li>
+						<li>....更多</li>
+					</ul>
+					</div>
+					<div class="price">
+						<ul>
+							<li>3万以下</li>
+							<li>3-5万</li>
+							<li>5-7万</li>
+							<li>7-9万</li>
+							<li>9-12万</li>
+							<li>12-16万</li>
+							<li>16-20万</li>
+						</ul>
+					</div>
+					<div class="cartype">
+						<ul>
+							<li>超值</li>
+							<li>急售</li>
+							<li>练手车</li>
+							<li>准新车</li>
+							<li>保卖车</li>
+							<li>SUV</li>
+							<li>MPV</li>
+						</ul>
+					</div>
+					<div class="search"></div>
+				</div>
+				<div class="salecar">
+					<div><span class="iwantsale cursorpoiter hovercolor">我要卖车 ></span>  <p>已有<span>46531134</span>人提交申请</p></div>
+					<div class="cellnum">
+						<input type="text" name="" id="inputs" placeholder="请输入您的手机号"/>
+					</div>
+					<div class="btn">
+						<button class="btnsale cursorpoiter">我要卖车</button>
+						<button class="btnfree cursorpoiter">免费估价</button>
+						
+					</div>
+				</div>
+			</div>
+			<!--保卖车-->
+			<div class="ensuresalecar">
+		     	<div>  
+		     		<h3>保卖车</h3>
+		     		<span>限时出售 l 性价比高</span> 
+		     	</div>
+				<div class="leftimg "><img src="guazi/leftaside.png" width="227px" class="cursorpoiter"/></div>
+				<div class="chooseyourlove hovershadow cursorpoiter">
+					<div id="">
+						<img src="guazi/salecar_car1.png" width="227px" />
+					</div>
+					<div class="choosetxt">
+						<p>选你所爱</p>
+						<p> 3年内准新车</p>
+					</div>
+				</div>
+				<div class="firstchoose">
+					<div class="firchs hovershadow cursorpoiter"><img src="guazi/salecar_car2.png" width="263px"/>
+					<div class="firchsdes">
+						<p>入门首选</p>
+						<p class="ershouche5-7">5-7万品质二手车</p>
+						
+					</div>
+					</div>
+					<div class="carbeauitful hovershadow cursorpoiter"><img src="guazi/salecar_car3.png" width="263px" />
+					     <div class="firchsdes">
+						<p>车美价优</p>
+						<p class="ershouche5-7">体验手动乐趣</p>
+						
+					</div>
+					</div>
+				</div>
+				<div class="rightimg hovershadow cursorpoiter"><img src="guazi/salecar_right.png" width="227px"/></div>
+			</div>
+			<!--保卖车结束-->
+			<!--瓜子金融开始-->
+			<div class="guazifinancial">
+				<div>  
+		     		<h3>瓜子金融</h3>
+		     		<span>几十款精选金融产品 l 最快30分钟完成审批 l 95%以上申请可通过 l 金融专员全程服务</span> 
+		     	</div>
+				<div class="leftimg cursorpoiter"><img src="guazi/finance_left.png" width="227px"/></div>
+				<div class="chooseyourlove cursorpoiter hovershadow">
+					<div id="">
+						<img src="guazi/finan_car1.png" width="227px"/>
+					</div>
+					<div class="choosetxt">
+						<p>日供十元贷回家</p>
+						<p> 5年内 练手车</p>
+					</div>
+				</div>
+				<div class="firstchoose">
+					<div class="firchs cursorpoiter hovershadow"><img src="guazi/finan_car2.png" width="263px"/>
+					<div class="firchsdes">
+						<p>千元月供买好车</p>
+						<p class="ershouche5-7">5-10万  中产车</p>
+						
+					</div>
+					</div>
+					<div class="carbeauitful cursorpoiter hovershadow"><img src="guazi/finan_car3.png" width="263px"/>
+					     <div class="firchsdes">
+						<p>五万首付高品质</p>
+						<p class="ershouche5-7">10-20万   热门车</p>
+						
+					</div>
+					</div>
+				</div>
+				<div class="rightimg hovershadow cursorpoiter"><img src="guazi/finan_right.png" width="227px"/></div>
+			</div>
+			<!--瓜子金融结束-->
+			<!--毛豆新车开始-->
+			<div class="maodou">
+				<div>
+		     		<h3>毛豆新车</h3>
+		     		<span>包购置税 l 送一年保险 l 一年后灵活购买 l 三年还款超低月供</span> 
+		     	</div>
+				<div class="leftimg cursorpoiter"><img src="guazi/maodou_left.jpg" width="227px"/></div>
+				<div class="chooseyourlove cursorpoiter hovershadow">
+					<div id="">
+						<img src="guazi/newcar_car1.jpg" width="227px"/>
+					</div>
+					<div class="choosetxt">
+						<p>1万开新车</p>
+						<p>质优价低</p>
+					</div>
+				</div>
+				<div class="firstchoose">
+					<div class="firchs cursorpoiter hovershadow"><img src="guazi/newcar_car2.jpg" width="263px"/>
+					<div class="firchsdes">
+						<p>大众专场</p>
+						<p class="ershouche5-7">国民好车</p>
+						
+					</div>
+					</div>
+					<div class="carbeauitful hovershadow cursorpoiter"><img src="guazi/finan_car3.png" width="263px"/>
+					     <div class="firchsdes">
+						<p>月供2000起</p>
+						<p class="ershouche5-7">分期无忧负担小</p>
+						
+					</div>
+					</div>
+				</div>
+				<div class="rightimg cursorpoiter hovershadow"><img src="guazi/maodou_right.jpg" width="227px"/></div>
+			</div>
+			<!--毛豆新车结束-->
+			<!--买卖车流程mask开始-->
+			   <div class="slide_mask">
+			   		<img src="guazi/buycarProcess_bg.png" width="1340px" height="400px" class="maskbg"/>
+				   <!--买车流程图片-->
+				   <ul class="ulbuystep">
+					   <li><img src="guazi/buy-step-order.jpg" height="400px" class="buystepimg"/></li>
+					   <li><img src="guazi/buy-step-see.jpg" height="400px" class="buystepimg"></li>
+					   <li><img src="guazi/buy-step-contract.jpg" height="400px" class="buystepimg"></li>
+					   <li><img src="guazi/buy-step-deal.jpg" height="400px" class="buystepimg"></li>
+				   </ul>
+					<!--卖车流程图片-->
+				   <ul class="ulsalestep">
+					   <li><img src="guazi/sell-step-info.jpg" alt=""></li>
+					   <li><img src="guazi/sell-step-service.jpg" alt=""></li>
+					   <li><img src="guazi/sell-step-see.jpg" alt=""></li>
+					   <li><img src="guazi/sell-step-deal.jpg" alt=""></li>
+				   </ul>
+			   		<div class="buysallpro">
+			   			<span class="firbuypro cursorpoiter borderbottom">买车流程</span>
+			   			<em>|</em>
+			   			<span class="secsalepro cursorpoiter">卖车流程</span>
+			   			
+			   			<!--买车流程-->
+			   			<div class="buyprogress">
+			   				<p class="ptlt" style="font-size: 40px; color: #495056;">预约看车</p> 
+			   				<p style="font-size: 18px; color:#848c95;">拨打400-060-8632或在线预约</p>
+			   				<ul class="ulbuyproicon">
+			   					<li class="watchcar"><div class="icon5667"></div><span class="color22ac38">预约看车<em></em></span></li>
+			   					<li class="personwatch"><div class="icon5667"></div><span>专人带看<em></em> </span></li>
+			   					<li class="signcontract"><div class="icon5667"></div><span>签署合同 <em></em></span> </li>
+			   					<li class="tradetoperson"><div class="icon5667"></div><span>交易过户<em></em></span></li>
+			   				</ul>
+			   			</div>
+						<div class="salecarprogress">
+							<p class="ptlt" style="font-size: 40px; color: #495056;">在线预约</p>
+							<p style="font-size: 18px; color:#848c95;">评估师免费上门检测</p>
+							<ul class="ulbuyproicon">
+								<li class="watchcar"><div class="icon5667"></div><span class="color22ac38">在线预约<em></em></span></li>
+								<li class="personwatch"><div class="icon5667"></div><span>全网代售<em></em> </span></li>
+								<li class="signcontract"><div class="icon5667"></div><span>三方约看 <em></em></span> </li>
+								<li class="tradetoperson"><div class="icon5667"></div><span>签约过户<em></em></span></li>
+							</ul>
+						</div>
+			   		</div>
+				<!--买卖车流程mask结束-->
+			   		
+			   </div>
+			<!--买卖车流程mask结束-->
+			<!--猜你喜欢开始-->
+			   <div class="guessyoulike">
+			   	
+			   		<ul>
+
+			   			<li ><span class="selected"><a href="javascript:;">猜您喜欢</a></span> </li>
+			   			<li><span><a href="javascript:;">保卖车</a></span></li>
+			   			<li><span><a href="javascript:;">最新上架</a></span> </li>
+			   			<li><span><a href="javascript:;">降价急售</a></span> </li>
+			   			<li><span><a href="javascript:;">准新车</a> </span></li>
+			   			<li> <span><a href="javascript:;">练手车</a></span></li>
+			   			<li> <span><a href="javascript:;">SUV</a></span></li>
+			   		</ul>
+				   <ol>
+					   <li><img src="guazi/guesslike_car1.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car2.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car3.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car4.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car5.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car6.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car7.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car8.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car9.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car10.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car11.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+					   <li><img src="guazi/guesslike_car12.jpg" alt=""><div class="cardes"><p class="tlt">标志508 2013版</p><p>2014年 | 7.8万公里</p><p>8.30万 <span>超值</span></p></div></li>
+				   </ol>
+				   <div class="carmore"><a class="hovercolor">更多猜您喜欢 <img src="guazi/nextpage.png"></a></div>
+
+			   </div>
+			<!--猜你喜欢结束-->
+
+			<!--让每个家庭都拥有更好的车-->.
+			<div class="familycar">
+				<div class="familycarContent">
+					<div class="carleft">
+						<p>让每个家庭都拥有<span>更好的车</span></p>
+						<span class="freetel">免费咨询电话：400-060-8632</span>
+					</div>
+					<div class="carright">
+						<button class="iwillsale">我要卖车</button>
+						<button class="iwillbuy">我要买车</button>
+					</div>
+					
+				</div>
+
+			</div>
+			<!--让每个家庭都拥有更好的车结束-->.
+			</div>
+			<!--内容结束-->
+			<!--底部开始-->
+			<div class="footer">
+				<div class="foot_top">
+					<div class="footlogo">
+							<span></span>
+					</div>
+					<div class="top_tel">
+						<div class="tel_top">
+							<p>咨询电话：400-060-8632（周一至周日 8:00-21:00）</p>
+							<p>服务监督热线： 400-066-8780（周一至周日 9:00-21:00）</p>
+						</div>
+						<div class="tel_bottom">
+							<p>互联网违法或不良信息举报联系方式：</p>
+							<p>邮箱： jubao@guazi.com  电话：010-89191670</p>
+						</div>
+					</div>
+					<div class="top_code">
+						<img src="guazi/ewm-wx-2.png" width="85px" alt="">
+						<img src="guazi/ewm-app-2.png" width="85px" alt="">
+						<span>关注微信</span>
+						<span>下载APP</span>
+					</div>
+					<div class="top_about">
+						<div class="ullia">
+							<ul>
+
+								<li><a href="html/about-guazi.html">关于瓜子</a></li>
+								<li><a href="html/join-us.html">加入我们</a></li>
+								<li><a href="html/about-guazi.html">联系我们</a></li>
+								<li><a href="#">服务保障</a></li>
+								<li><a href="#">隐私声明</a></li>
+								<li><a href="#">服务条款</a></li>
+								<li><a href="#">营业执照</a></li>
+
+							</ul>
+
+						</div>
+						<p class="copyright">Copyright 2018 www.guazi.com All Rights Reserved</p>
+						<p class="procy"><span></span>京公网安备11010802020161号</p>
+					</div>
+				</div>
+				<div class="foot_middle">
+
+					<div class="hotbrand">
+						<span class="tlt">热门品牌：</span>
+						<a href="javasript:;">广州二手大众</a>
+						<a href="javasript:;"> 广州二手日产</a>
+						<a href="javasript:;">广州二手丰田</a>
+						<a href="javasript:;">广州二手本田</a>
+						<a href="javasript:;">广州二手宝马</a>
+						<a href="javasript:;"> 广州二手别克</a>
+						<a href="javasript:;"> 广州二手福特</a>
+						<a href="javasript:;"> 广州二手奔驰</a>
+						<a href="javasript:;"> 广州二手奥迪 </a>
+						<a href="javasript:;">广州二手传祺</a>
+						<a href="javasript:;"> 广州二手比亚迪</a>
+						<span class="openbox"></span>
+					</div>
+					<div class="hotcar hotbrand">
+						<span class="tlt">热门车系：</span>
+						<a href="javasript:;">广州二手日产轩逸</a>
+						<a href="javasript:;"> 广州二手日产天籁</a>
+						<a href="javasript:;">广州二手宝马宝马5系</a>
+						<a href="javasript:;">广州二手宝马宝马3系</a>
+						<a href="javasript:;">广州二手宝马宝马X1</a>
+						<a href="javasript:;"> 广州二手传祺传祺GS...</a>
+						<a href="javasript:;"> 广州二手传祺传祺GS...</a>
+
+						<a href="javasript:;"> 广州二手福特福克斯</a>
+
+						<span class="openbox"></span>
+					</div>
+
+					<div class="hotcar hotbrand hotcity">
+						<span class="tlt">热门城市：</span>
+						<a href="javasript:;">全国二手车</a>
+						<a href="javasript:;"> 郑州二手车</a>
+						<a href="javasript:;">上海二手车</a>
+						<a href="javasript:;">沈阳二手车</a>
+						<a href="javasript:;">昆明二手车</a>
+						<a href="javasript:;"> 北京二手车</a>
+						<a href="javasript:;"> 南宁二手车</a>
+						<a href="javasript:;"> 长春二手车</a>
+						<a href="javasript:;"> 成都二手车</a>
+						<a href="javasript:;"> 天津二手车</a>
+						<a href="javasript:;"> 广州二手车</a>
+						<a href="javasript:;"> 重庆二手车</a>
+						<a href="javasript:;"> 东莞二手车</a>
+
+						<span class="openbox"></span>
+					</div>
+					<div class="mobile hotbrand  ">
+						<span class="tlt">移动版：</span>
+						<a href="javasript:;" style="text-indent: 15px">瓜子二手车广州移动页</a>
+					</div>
+					<div class="hotpage hotbrand hotcity">
+
+						<span class="tlt">热门页面：</span>
+						<a href="javasript:;">1万元二手车</a>
+						<a href="javasript:;"> 2万左右二手车</a>
+						<a href="javasript:;">3万的二手车</a>
+						<a href="javasript:;">4万的二手车</a>
+						<a href="javasript:;">5万以下二手车</a>
+						<a href="javasript:;"> 二手越野车</a>
+						<a href="javasript:;"> 二手商务车</a>
+						<a href="javasript:;"> 二手跑车</a>
+						<a href="javasript:;"> 自动挡二手车</a>
+						<a href="javasript:;"> 急卖二手车</a>
+						<a href="javasript:;"> 低价出售二手车</a>
+						<a href="javasript:;"> 二手车评估</a>
+						<span class="openbox"></span>
+					</div>
+				</div>
+				<div class="foot_bottom">
+					<p>车好多旧机动车经纪（北京）有限公司    北京市顺义区南法信镇政府西侧(北京市旧机动车交易市场有限公司顺义分市场院内A区01号)    010-57317000</p>
+				</div>
+			</div>
+			<!--底部结束-->
+
+		<script src="js/jquery-1.11.1.js"></script>
+		<!--右边固定条js-->
+		<script src="js/aside-fixed.js"></script>
+		<!--文字图标-->
+		<script src="js/iconfont.js"></script>
+		<!--头部轮播-->
+		<script src="js/header-banner.js"></script>
+		<!--买车流程轮播-->
+		<script src="js/ulbuystep-banner.js"></script>
+		<!--买车流程轮播-->
+		<script src="js/ulsalestep-banner.js"></script>
+		<!--鼠标进入-->
+		<script src="js/city-json.js"></script>
+		<script src="js/cities.js"></script>
+		<!--点击登录-->
+	<script src="js/login-click.js"></script>
+	<!--点击意见反馈-->
+	<script src="js/feedback-click.js"></script>
+
+	</body>
+</html>
